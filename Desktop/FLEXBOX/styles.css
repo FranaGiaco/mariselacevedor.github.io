@@ -1,0 +1,223 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F9;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+/* Sección de contactos */
+.contacts-section {
+    flex: 1;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estatus del usuario */
+.icons-container {
+    display: flex;          
+    align-items: center;    
+    justify-content: space-between; 
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 300px; /* Ajusta según el diseño */
+    border-bottom: 1px solid #DDD;
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-status img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name-profile {
+    margin-left: 0px !important;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.last-message {
+    font-size: 12px;
+    color: gray;
+}
+
+i.fas {
+    font-size: 20px; 
+    color: gray;
+}
+
+.chat-icon {
+    margin-left: auto;
+}
+/* Estilo para el ícono de chat */
+.chat-icon {
+    font-size: 20px;  /* Tamaño del ícono de chat */
+    color: grey;    /* Color verde para el ícono de chat */
+    cursor: pointer;  /* Cursor de puntero al pasar por encima */
+}
+
+/* Estilo para el ícono de menú de hamburguesa */
+.menu-icon {
+    font-size: 40px;  /* Tamaño del ícono de hamburguesa */
+    color: #333;      /* Color gris oscuro para el ícono de menú */
+    cursor: pointer; /* Cursor de puntero al pasar por encima */
+}
+
+
+.divider {
+    height: 1px;
+    background-color: #DDD;
+    margin: 10px 0;
+}
+
+.user-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.last-message {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+/* Botón Nuevo Chat */
+.new-chat-button {
+    background-color: #a491d2;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;  /* Nuevo tamaño más largo */
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #DDD;  
+    border-bottom: 1px solid #DDD;
+}
+
+/* Contactos */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    border-top: 1px solid #DDD;  
+    border-bottom: 1px solid #DDD;
+}
+
+.contact-item:hover {
+    background-color: #F0F0F0;
+}
+
+.contact-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text span {
+    font-size: 14px;
+}
+
+/* Foto de las manos */
+.chat-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 0%; /* Cambio para que sea cuadrada */
+}
+
+/* Sección principal */
+.main-section {
+    flex: auto; /* Se expande para ocupar todo el espacio restante */
+    background-color: #f2f2f2;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 0; /* Evita que se expanda más de lo necesario */
+}
+
+.chat-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/* Foto de María */
+.user-status {
+    display: flex;
+    align-items: flex-start; /* Alineación a la izquierda */
+}
+
+.user-status img {
+    width: 40px; /* Ajusta el tamaño de la imagen */
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-left: 10px; /* Da espacio entre la foto y el nombre */
+}
+
+.chat-body {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.chat-body h3 {
+    margin-bottom: 10px;
+}
+
+/* Icono de Chat y Menú */
+.chat-header img,
+.main-section .menu-icon {
+    width: 300px;
+    height: 300px;
+}
+
+/* Flexbox para alinear los elementos */
+.main-container {
+    display: flex;
+}
